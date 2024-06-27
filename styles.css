@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#pregunta-container {
+    margin-bottom: 20px;
+}
+
+.opcion {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.opcion.correcta {
+    color: green;
+}
+
+.opcion.incorrecta {
+    color: red;
+}
